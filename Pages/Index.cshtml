@@ -1,0 +1,32 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div>
+    <div>
+        <form id="searchform">
+            <input type="text" id="search"><br>
+        </form>
+    </div>
+    <div id="table-div" class="table">
+        <table id="myTable">
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Occupation</th>
+            </tr>
+            <tr>
+                <td>Harry Potter</td>
+                <td>11</td>
+                <td>Wizard</td>
+            </tr>
+            <tr>
+                <td>Rubeus Hagrid</td>
+                <td>54</td>
+                <td>Game Keeper</td>
+            </tr>
+        </table>
+    </div>
+</div>
